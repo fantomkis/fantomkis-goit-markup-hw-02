@@ -1,0 +1,167 @@
+
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primery-white-color: #fff;
+}
+
+ 
+  body {
+    color: var(--primery-text-color);
+    background-color: var(--primery-white-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+   
+}
+ /*шапка */
+header {
+    display: block;
+}
+   
+.logo{
+color:#212121;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+
+  }
+ .accent{
+      color:#2196F3;
+  }
+
+
+ .site-nav .link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color:var(--title-text-color);
+
+}
+.link{
+    color: aqua;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #565e6a;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+  color: var(--accent-color);  
+}
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+.adres-link{ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+.adres-link:hover,
+.adres-link:focus{
+    color: var(--accent-color);
+}
+/* hero */
+.hero{
+
+background: #2F303A;
+}
+.hero-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--primery-white-color);
+}
+.button{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: var(--primery-white-color);
+
+background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+/* особиности  */
+.features{
+color: #212121;
+}
+.titel-features{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color:var(--title-text-color);
+
+}
+.list-feat{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+color: var(--primery-text-color);
+}
+
+/* про нас */
+.about-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.team-titel{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
