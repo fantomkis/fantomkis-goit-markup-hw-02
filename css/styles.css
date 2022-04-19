@@ -12,7 +12,7 @@
     color: var(--primery-text-color);
     background-color: var(--primery-white-color);
     font-style: normal;
-    font-family: 'Roboto';
+    font-family: Roboto,Raleway;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -31,7 +31,7 @@ color:#212121;
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 }
 
  .accent{
@@ -42,7 +42,7 @@ line-height: 31px;
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 color:var(--title-text-color);
 }
@@ -51,7 +51,7 @@ color:var(--title-text-color);
 color: aqua;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 color: #565e6a;
 }
 
@@ -68,7 +68,7 @@ li {
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -88,7 +88,7 @@ background: #2F303A;
 font-family: 'Roboto';
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.4;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -99,7 +99,7 @@ color: var(--primery-white-color);
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.9;
 
 display: flex;
 align-items: center;
@@ -120,7 +120,7 @@ color: #212121;
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -132,7 +132,7 @@ color:var(--title-text-color);
 font-family: 'Roboto';
 font-style: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--primery-text-color);
 }
@@ -142,7 +142,7 @@ color: var(--primery-text-color);
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
@@ -154,7 +154,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
@@ -175,7 +175,7 @@ color: var(--title-text-color);
 font-family: 'Roboto';
 font-style: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 color: var(--primery-text-color);
 }
@@ -187,7 +187,7 @@ background: var(--fon-color);
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -202,8 +202,9 @@ color: var(--primery-white-color);
 .footer-adres{
 font-family: 'Roboto';
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
+font-style:normal;
 color:var(--primery-white-color);
 }
 
@@ -214,8 +215,10 @@ color: var(--accent-color);
 .footer-contact{
 font-family: 'Roboto';
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
+font-style:normal;
+
 color: rgba(255, 255, 255, 0.6);
 }
 .footer-contact:hover,.footer-contact:focus{
@@ -228,7 +231,7 @@ color:var(--accent-color);
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-text-color);
@@ -246,7 +249,7 @@ color: var(--primery-white-color);
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: var(--title-text-color);
 }
@@ -254,7 +257,7 @@ color: var(--title-text-color);
 .desc{
 font-family: 'Roboto';
 font-size: 16px;
-line-height: 30px;
+line-height: 1.9;
 letter-spacing: 0.03em;
 color: var(--primery-text-color);
 
