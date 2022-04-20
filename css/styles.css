@@ -12,7 +12,7 @@
     color: var(--primery-text-color);
     background-color: var(--primery-white-color);
     font-style: normal;
-    font-family: Roboto,Raleway;
+    font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -53,15 +53,19 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 color: #565e6a;
-}
 
+}
 .site-nav .link:hover,
 .site-nav .link:focus{
 color: var(--accent-color);  
 }
 
+.site-nav .corent{
+color: var(--accent-color);
+}
+
 li {
-  list-style-type: none;
+list-style-type: none;
   /* Убираем маркеры */
 }
 .adres-link{ 
@@ -100,6 +104,7 @@ font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
+font-family: inherit;
 
 display: flex;
 align-items: center;
@@ -238,6 +243,7 @@ color:var(--title-text-color);
 background: #F5F4FA;
 border-radius: 4px;
 border:none;
+font-family: inherit;
 }
 
 .button:hover,.button:focus{
