@@ -60,7 +60,7 @@ color: #565e6a;
 color: var(--accent-color);  
 }
 
-.site-nav .corent{
+.site-nav .active{
 color: var(--accent-color);
 }
 
