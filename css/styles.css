@@ -132,7 +132,6 @@ color:var(--title-text-color);
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
-color: var(--primery-text-color);
 }
 
 /* про нас */
@@ -168,7 +167,6 @@ color: var(--title-text-color);
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
-color: var(--primery-text-color);
 }
 /* foter */
 .footer{
@@ -243,10 +241,10 @@ color: var(--title-text-color);
 }
 
 .desc{
-font-family: 'Roboto';
+
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.03em;
-color: var(--primery-text-color);
+
 
 }
